@@ -847,7 +847,6 @@ section.main .element-container {margin-bottom: 1.2rem !important;}
 .dashboard-subtitle {font-size: 1rem; color: #555; margin-top: -0.4rem; margin-bottom: 1.5rem; text-align: left; padding-left: 0.25rem;}
 </style>""", unsafe_allow_html=True)
 
-# NAVBAR
 st.markdown(f"""
 <div class="top-navbar">
     <div class="title"><span class="title-icon">📊</span> Student Academic Performance</div>
