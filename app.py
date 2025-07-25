@@ -859,7 +859,6 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-# PAGE CONTENT
 if st.session_state.page == "Dashboard":
     st.header("")
     st.header("📈 Dashboard Overview")
