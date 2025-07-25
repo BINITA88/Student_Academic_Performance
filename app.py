@@ -814,7 +814,6 @@ st.set_page_config(
     layout="wide"
 )
 
-# LOAD DATA
 @st.cache_data
 def load_data():
     df = pd.read_csv('data/stud.csv')
