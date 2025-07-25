@@ -936,14 +936,7 @@ if st.session_state.page == "Dashboard":
         st.plotly_chart(fig_hist, use_container_width=True)
 
     st.markdown("---")
-    # img_col1, img_col2, img_col3 = st.columns(3)
-    # with img_col1:
-    #     st.image("https://via.placeholder.com/300x200.png?text=Student+1", caption="Student Achievement", use_column_width=True)
-    # with img_col2:
-    #     st.image("https://via.placeholder.com/300x200.png?text=Student+2", caption="Learning Activity", use_column_width=True)
-    # with img_col3:
-    #     st.image("https://via.placeholder.com/300x200.png?text=Student+3", caption="Group Work", use_column_width=True)
-
+    
 elif st.session_state.page == "Model Training":
     st.header("")
     st.header("🛠️ Model Training")
