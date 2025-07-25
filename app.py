@@ -831,7 +831,6 @@ if query_page:
 if 'page' not in st.session_state:
     st.session_state.page = "Dashboard"
 
-# STYLING
 st.markdown("""<style>html, body {margin: 0; padding: 0; width: 100%; background-color: #f3f4f6 !important;}
 .block-container {padding: 1rem 2rem !important; width: 100% !important; max-width: 100% !important; background-color: #ffffff  !important;}
 div[data-testid="stDecoration"], header[data-testid="stHeader"] {display: none !important;}
