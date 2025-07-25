@@ -824,7 +824,6 @@ def load_data():
 
 df = load_data()
 
-# READ PAGE FROM QUERY PARAM
 query_page = st.query_params.get("page")
 if query_page:
     st.session_state.page = query_page.replace("+", " ")
